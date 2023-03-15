@@ -135,12 +135,12 @@ html.dark {
   --hty-secondary-text-color: #eee;
   --post-block-bg-color: #1b1f2e;
   --smc-link-color: #3ca1ff;
-  --yun-bg-image: url("https://cdn.yunyoujun.cn/img/bg/galaxy.jpg");
+  --yun-bg-image: url("/images/background_dark.jpg");
   --banner-line-color: #fff;
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
   --banner-char-hover-color: #000;
-  --post-card-bg-color: rgba(27,31,46,0.9);
+  --post-card-bg-color: rgba(27,31,46,0.8);
   --post-card-shadow: 0 1px 8px rgba(27,31,46,0.1);
   --sidebar-bg-color: rgba(27,31,46,0.95);
   --sidebar-bg-image: url("");
@@ -360,7 +360,7 @@ body::before {
   opacity: 0;
 }
 #banner .char-left {
-  border-left: 1px solid var(--banner-line-color);
+  border-left: 0 solid var(--banner-line-color);
   border-right: 0px solid rgba(0,120,231,0.1);
   border-right-width: 0px;
   animation-duration: 0.4s;
@@ -370,7 +370,7 @@ body::before {
 }
 #banner .char-right {
   border-left: 0px solid rgba(0,120,231,0.1);
-  border-right: 1px solid var(--banner-line-color);
+  border-right: 0 solid var(--banner-line-color);
   border-left-width: 0px;
   animation-duration: 0.4s;
   animation-delay: 0.4s;
@@ -1257,7 +1257,7 @@ body::before {
   }
 }
 :root {
-  --post-card-bg-color: rgba(255,255,255,0.9);
+  --post-card-bg-color: rgba(255,255,255,0.8);
   --post-card-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 .post-card {
